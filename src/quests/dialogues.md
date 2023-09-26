@@ -89,7 +89,7 @@ my_custom_dialogue_1_0 is the text string which will get translated by the game.
 
 This handles which dialogue branch will be shown next. 
 
-NB: notice that every node starts with <XXX> and is closed with a "/" : </XXX>
+NB: notice that every node starts with `<XXX>` and is closed with a "/" : `</XXX>`
 
 This is essential - take care to always close your nodes or the game will crash on boot.
 
@@ -162,7 +162,7 @@ Now after the first exchange, the player will have two options to answer: either
 
 If the player chooses option 2, the NPC will answer with branch 4, and if the player chooses option 3, the NPC will answer with branch 5.
   
-Note that if the dialogue is over, there is no <next> in the branch. The player will again see the starting dialogue options.
+Note that if the dialogue is over, there is no `<next>` in the branch. The player will again see the starting dialogue options.
   
 ## Chapter 4 : The four horsemen of dialogue and the executor
   
